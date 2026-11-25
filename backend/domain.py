@@ -67,7 +67,7 @@ def _expense_shares(expense: dict) -> dict[str, int]:
 
 
 def calculate_balances(trip: dict) -> dict:
-    """Compute per-member paid, owed, and net balance in integer paise."""
+    """Compute per-member paid, owed, and payment-adjusted net balance in integer paise."""
     members = trip["members"]
     member_ids = {m["id"] for m in members}
     paid = {m["id"]: 0 for m in members}
@@ -82,6 +82,13 @@ def calculate_balances(trip: dict) -> dict:
         for pid, share in _expense_shares(expense).items():
             owed[pid] += share
 
+    # Actual payments adjust net balances without altering expense-derived paid/owed
+    net = {mid: paid[mid] - owed[mid] for mid in member_ids}
+    for payment in trip.get("payments", []):
+        amt = payment["amount_paise"]
+        net[payment["from_member_id"]] += amt
+        net[payment["to_member_id"]] -= amt
+
     return {
         "trip_id": trip["id"],
         "total_spend_paise": total_spend_paise,
@@ -91,11 +98,45 @@ def calculate_balances(trip: dict) -> dict:
                 "member_name": m["name"],
                 "total_paid_paise": paid[m["id"]],
                 "total_owed_paise": owed[m["id"]],
-                "net_balance_paise": paid[m["id"]] - owed[m["id"]],
+                "net_balance_paise": net[m["id"]],
             }
             for m in members
         ],
     }
+
+
+def validate_payment(trip: dict, payment: dict) -> None:
+    """Validate a settlement payment against current debtor/creditor positions."""
+    member_ids = {m["id"] for m in trip["members"]}
+    from_id = payment.get("from_member_id")
+    to_id = payment.get("to_member_id")
+    amount = payment.get("amount_paise")
+
+    if not _is_positive_int(amount):
+        raise ValueError("amount_paise must be a positive integer")
+    if from_id not in member_ids:
+        raise ValueError("from_member_id is not a trip member")
+    if to_id not in member_ids:
+        raise ValueError("to_member_id is not a trip member")
+    if from_id == to_id:
+        raise ValueError("from_member_id and to_member_id cannot be the same member")
+
+    net_by_id = {
+        b["member_id"]: b["net_balance_paise"]
+        for b in calculate_balances(trip)["balances"]
+    }
+    sender_net = net_by_id[from_id]
+    receiver_net = net_by_id[to_id]
+    if sender_net >= 0:
+        raise ValueError(f"Member '{from_id}' does not owe any money")
+    if receiver_net <= 0:
+        raise ValueError(f"Member '{to_id}' is not owed any money")
+
+    max_payable = min(-sender_net, receiver_net)
+    if amount > max_payable:
+        raise ValueError(
+            f"Payment of {amount} paise exceeds outstanding limit of {max_payable} paise"
+        )
 
 
 def _settle_group_two_pointer(group: list[tuple[str, int]]) -> list[dict]:
@@ -244,4 +285,32 @@ def calculate_settlements(trip: dict) -> dict:
         ],
         "payment_count": len(transfers),
         "is_exact_minimal": is_exact_minimal,
+    }
+
+
+def calculate_summary(trip: dict) -> dict:
+    """Return combined trip balances, settlement recommendations, and payment summary."""
+    balance_report = calculate_balances(trip)
+    settlement_report = calculate_settlements(trip)
+    names = {m["id"]: m["name"] for m in trip["members"]}
+    payments = [
+        {
+            **p,
+            "from_member_name": names[p["from_member_id"]],
+            "to_member_name": names[p["to_member_id"]],
+        }
+        for p in trip.get("payments", [])
+    ]
+    return {
+        "trip_id": trip["id"],
+        "trip_name": trip["name"],
+        "total_spend_paise": balance_report["total_spend_paise"],
+        "total_settled_paise": sum(p["amount_paise"] for p in payments),
+        "balances": balance_report["balances"],
+        "settlements": {
+            "transfers": settlement_report["transfers"],
+            "payment_count": settlement_report["payment_count"],
+            "is_exact_minimal": settlement_report["is_exact_minimal"],
+        },
+        "payments": payments,
     }
