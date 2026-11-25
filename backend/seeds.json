@@ -1,0 +1,2217 @@
+[
+  {
+    "id": "goa",
+    "name": "Goa Getaway",
+    "members": [
+      {
+        "id": "goa-m1",
+        "name": "Harsh"
+      },
+      {
+        "id": "goa-m2",
+        "name": "Meera"
+      },
+      {
+        "id": "goa-m3",
+        "name": "Aarav"
+      },
+      {
+        "id": "goa-m4",
+        "name": "Arjun"
+      },
+      {
+        "id": "goa-m5",
+        "name": "Ishita"
+      },
+      {
+        "id": "goa-m6",
+        "name": "Pooja"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "goa-e01",
+        "description": "Paragliding",
+        "amount_paise": 546700,
+        "payer_id": "goa-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e02",
+        "description": "Dinner at restaurant",
+        "amount_paise": 443900,
+        "payer_id": "goa-m1",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e03",
+        "description": "Diesel refuel",
+        "amount_paise": 152600,
+        "payer_id": "goa-m3",
+        "category": "Fuel",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e04",
+        "description": "Street food lunch",
+        "amount_paise": 305700,
+        "payer_id": "goa-m2",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e05",
+        "description": "Dinner at restaurant",
+        "amount_paise": 246600,
+        "payer_id": "goa-m5",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e06",
+        "description": "Medical supplies",
+        "amount_paise": 36100,
+        "payer_id": "goa-m1",
+        "category": "Other",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e07",
+        "description": "Fort tickets",
+        "amount_paise": 137500,
+        "payer_id": "goa-m1",
+        "category": "Activities",
+        "participant_ids": [
+          "goa-m4",
+          "goa-m3"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "goa-m4": 78572,
+          "goa-m3": 58928
+        }
+      },
+      {
+        "id": "goa-e08",
+        "description": "Street food lunch",
+        "amount_paise": 248700,
+        "payer_id": "goa-m2",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e09",
+        "description": "Ice cream stop",
+        "amount_paise": 408600,
+        "payer_id": "goa-m2",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m2",
+          "goa-m1"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e10",
+        "description": "Chai and snacks",
+        "amount_paise": 84200,
+        "payer_id": "goa-m5",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m2",
+          "goa-m4",
+          "goa-m5",
+          "goa-m3"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "goa-m2": 35453,
+          "goa-m4": 13295,
+          "goa-m5": 22158,
+          "goa-m3": 13294
+        }
+      },
+      {
+        "id": "goa-e11",
+        "description": "Ice cream stop",
+        "amount_paise": 380900,
+        "payer_id": "goa-m2",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e12",
+        "description": "Hotel stay",
+        "amount_paise": 954300,
+        "payer_id": "goa-m2",
+        "category": "Accommodation",
+        "participant_ids": [
+          "goa-m5",
+          "goa-m1",
+          "goa-m4",
+          "goa-m2",
+          "goa-m3"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e13",
+        "description": "Parking fee",
+        "amount_paise": 22300,
+        "payer_id": "goa-m5",
+        "category": "Other",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m3",
+          "goa-m4",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e14",
+        "description": "Medical supplies",
+        "amount_paise": 73900,
+        "payer_id": "goa-m5",
+        "category": "Other",
+        "participant_ids": [
+          "goa-m6",
+          "goa-m5",
+          "goa-m2",
+          "goa-m1"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "goa-m6": 16423,
+          "goa-m5": 8211,
+          "goa-m2": 24633,
+          "goa-m1": 24633
+        }
+      },
+      {
+        "id": "goa-e15",
+        "description": "Bus tickets",
+        "amount_paise": 141600,
+        "payer_id": "goa-m3",
+        "category": "Transport",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e16",
+        "description": "Street food lunch",
+        "amount_paise": 494700,
+        "payer_id": "goa-m1",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m2",
+          "goa-m4",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e17",
+        "description": "Local handicrafts",
+        "amount_paise": 223300,
+        "payer_id": "goa-m6",
+        "category": "Shopping",
+        "participant_ids": [
+          "goa-m4",
+          "goa-m3",
+          "goa-m6",
+          "goa-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e18",
+        "description": "Lunch thali",
+        "amount_paise": 82400,
+        "payer_id": "goa-m2",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e19",
+        "description": "Hotel stay",
+        "amount_paise": 2867900,
+        "payer_id": "goa-m2",
+        "category": "Accommodation",
+        "participant_ids": [
+          "goa-m5",
+          "goa-m2"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "goa-m5": 1103039,
+          "goa-m2": 1764861
+        }
+      },
+      {
+        "id": "goa-e20",
+        "description": "Medical supplies",
+        "amount_paise": 136900,
+        "payer_id": "goa-m1",
+        "category": "Other",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m6",
+          "goa-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e21",
+        "description": "Street food lunch",
+        "amount_paise": 74300,
+        "payer_id": "goa-m1",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m2",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e22",
+        "description": "Breakfast cafe",
+        "amount_paise": 375600,
+        "payer_id": "goa-m2",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m4",
+          "goa-m5"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "goa-m4": 250400,
+          "goa-m5": 125200
+        }
+      },
+      {
+        "id": "goa-e23",
+        "description": "Resort booking",
+        "amount_paise": 1105600,
+        "payer_id": "goa-m1",
+        "category": "Accommodation",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e24",
+        "description": "Local handicrafts",
+        "amount_paise": 74000,
+        "payer_id": "goa-m1",
+        "category": "Shopping",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e25",
+        "description": "Boat ride",
+        "amount_paise": 472700,
+        "payer_id": "goa-m1",
+        "category": "Activities",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e26",
+        "description": "Dinner at restaurant",
+        "amount_paise": 77900,
+        "payer_id": "goa-m1",
+        "category": "Food",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e27",
+        "description": "Airport transfer",
+        "amount_paise": 748500,
+        "payer_id": "goa-m2",
+        "category": "Transport",
+        "participant_ids": [
+          "goa-m5",
+          "goa-m1"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "goa-m5": 272182,
+          "goa-m1": 476318
+        }
+      },
+      {
+        "id": "goa-e28",
+        "description": "Souvenirs",
+        "amount_paise": 150800,
+        "payer_id": "goa-m4",
+        "category": "Shopping",
+        "participant_ids": [
+          "goa-m3",
+          "goa-m2",
+          "goa-m6",
+          "goa-m1"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e29",
+        "description": "Hostel room",
+        "amount_paise": 2915100,
+        "payer_id": "goa-m2",
+        "category": "Accommodation",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "goa-e30",
+        "description": "Petrol fill-up",
+        "amount_paise": 380600,
+        "payer_id": "goa-m2",
+        "category": "Fuel",
+        "participant_ids": [
+          "goa-m1",
+          "goa-m2",
+          "goa-m3",
+          "goa-m4",
+          "goa-m5",
+          "goa-m6"
+        ],
+        "split_type": "equal"
+      }
+    ]
+  },
+  {
+    "id": "manali",
+    "name": "Manali Escape",
+    "members": [
+      {
+        "id": "manali-m1",
+        "name": "Rohan"
+      },
+      {
+        "id": "manali-m2",
+        "name": "Nisha"
+      },
+      {
+        "id": "manali-m3",
+        "name": "Kabir"
+      },
+      {
+        "id": "manali-m4",
+        "name": "Ishita"
+      },
+      {
+        "id": "manali-m5",
+        "name": "Priya"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "manali-e01",
+        "description": "Souvenirs",
+        "amount_paise": 173900,
+        "payer_id": "manali-m5",
+        "category": "Shopping",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e02",
+        "description": "Boat ride",
+        "amount_paise": 210000,
+        "payer_id": "manali-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "manali-m3",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e03",
+        "description": "Boat ride",
+        "amount_paise": 266700,
+        "payer_id": "manali-m4",
+        "category": "Activities",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m4"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "manali-m1": 222250,
+          "manali-m4": 44450
+        }
+      },
+      {
+        "id": "manali-e04",
+        "description": "Diesel refuel",
+        "amount_paise": 257200,
+        "payer_id": "manali-m5",
+        "category": "Fuel",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m5",
+          "manali-m4",
+          "manali-m3"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e05",
+        "description": "Local handicrafts",
+        "amount_paise": 288500,
+        "payer_id": "manali-m2",
+        "category": "Shopping",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e06",
+        "description": "Clothes shopping",
+        "amount_paise": 66300,
+        "payer_id": "manali-m2",
+        "category": "Shopping",
+        "participant_ids": [
+          "manali-m5",
+          "manali-m4",
+          "manali-m3"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e07",
+        "description": "Phone recharge",
+        "amount_paise": 68400,
+        "payer_id": "manali-m2",
+        "category": "Other",
+        "participant_ids": [
+          "manali-m2",
+          "manali-m3"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "manali-m2": 43528,
+          "manali-m3": 24872
+        }
+      },
+      {
+        "id": "manali-e08",
+        "description": "Airbnb rental",
+        "amount_paise": 926800,
+        "payer_id": "manali-m4",
+        "category": "Accommodation",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e09",
+        "description": "Local handicrafts",
+        "amount_paise": 143200,
+        "payer_id": "manali-m2",
+        "category": "Shopping",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e10",
+        "description": "Groceries for cooking",
+        "amount_paise": 86800,
+        "payer_id": "manali-m4",
+        "category": "Food",
+        "participant_ids": [
+          "manali-m3",
+          "manali-m1",
+          "manali-m2"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e11",
+        "description": "Parking fee",
+        "amount_paise": 74300,
+        "payer_id": "manali-m4",
+        "category": "Other",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e12",
+        "description": "Paragliding",
+        "amount_paise": 457400,
+        "payer_id": "manali-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e13",
+        "description": "Fort tickets",
+        "amount_paise": 101300,
+        "payer_id": "manali-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "manali-m5",
+          "manali-m3",
+          "manali-m4",
+          "manali-m1"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "manali-m5": 19481,
+          "manali-m3": 35066,
+          "manali-m4": 19480,
+          "manali-m1": 27273
+        }
+      },
+      {
+        "id": "manali-e14",
+        "description": "Train tickets",
+        "amount_paise": 207100,
+        "payer_id": "manali-m4",
+        "category": "Transport",
+        "participant_ids": [
+          "manali-m5",
+          "manali-m3"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e15",
+        "description": "Clothes shopping",
+        "amount_paise": 174400,
+        "payer_id": "manali-m4",
+        "category": "Shopping",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e16",
+        "description": "Dinner buffet",
+        "amount_paise": 205000,
+        "payer_id": "manali-m2",
+        "category": "Food",
+        "participant_ids": [
+          "manali-m5",
+          "manali-m3",
+          "manali-m1"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e17",
+        "description": "Fort tickets",
+        "amount_paise": 354200,
+        "payer_id": "manali-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e18",
+        "description": "Street food lunch",
+        "amount_paise": 419200,
+        "payer_id": "manali-m2",
+        "category": "Food",
+        "participant_ids": [
+          "manali-m4",
+          "manali-m5",
+          "manali-m1"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e19",
+        "description": "Spa session",
+        "amount_paise": 187300,
+        "payer_id": "manali-m4",
+        "category": "Activities",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e20",
+        "description": "Dinner buffet",
+        "amount_paise": 129400,
+        "payer_id": "manali-m4",
+        "category": "Food",
+        "participant_ids": [
+          "manali-m5",
+          "manali-m3",
+          "manali-m2",
+          "manali-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e21",
+        "description": "Auto rickshaw",
+        "amount_paise": 784900,
+        "payer_id": "manali-m4",
+        "category": "Transport",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e22",
+        "description": "Water sports",
+        "amount_paise": 327100,
+        "payer_id": "manali-m3",
+        "category": "Activities",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e23",
+        "description": "Boat ride",
+        "amount_paise": 292000,
+        "payer_id": "manali-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e24",
+        "description": "Chai and snacks",
+        "amount_paise": 155100,
+        "payer_id": "manali-m4",
+        "category": "Food",
+        "participant_ids": [
+          "manali-m1",
+          "manali-m2",
+          "manali-m3",
+          "manali-m4",
+          "manali-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "manali-e25",
+        "description": "Auto rickshaw",
+        "amount_paise": 101000,
+        "payer_id": "manali-m4",
+        "category": "Transport",
+        "participant_ids": [
+          "manali-m5",
+          "manali-m4"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "manali-m5": 89778,
+          "manali-m4": 11222
+        }
+      }
+    ]
+  },
+  {
+    "id": "jaipur",
+    "name": "Jaipur Heritage Tour",
+    "members": [
+      {
+        "id": "jaipur-m1",
+        "name": "Karan"
+      },
+      {
+        "id": "jaipur-m2",
+        "name": "Tanvi"
+      },
+      {
+        "id": "jaipur-m3",
+        "name": "Kavya"
+      },
+      {
+        "id": "jaipur-m4",
+        "name": "Simran"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "jaipur-e01",
+        "description": "Train tickets",
+        "amount_paise": 273500,
+        "payer_id": "jaipur-m2",
+        "category": "Transport",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e02",
+        "description": "Museum entry",
+        "amount_paise": 431200,
+        "payer_id": "jaipur-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m4",
+          "jaipur-m3"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "jaipur-m1": 143734,
+          "jaipur-m2": 61600,
+          "jaipur-m4": 164266,
+          "jaipur-m3": 61600
+        }
+      },
+      {
+        "id": "jaipur-e03",
+        "description": "Lunch thali",
+        "amount_paise": 297700,
+        "payer_id": "jaipur-m4",
+        "category": "Food",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e04",
+        "description": "Laundry",
+        "amount_paise": 106300,
+        "payer_id": "jaipur-m4",
+        "category": "Other",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e05",
+        "description": "Auto rickshaw",
+        "amount_paise": 336600,
+        "payer_id": "jaipur-m1",
+        "category": "Transport",
+        "participant_ids": [
+          "jaipur-m2",
+          "jaipur-m1"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e06",
+        "description": "Street food lunch",
+        "amount_paise": 417900,
+        "payer_id": "jaipur-m2",
+        "category": "Food",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e07",
+        "description": "Breakfast cafe",
+        "amount_paise": 332100,
+        "payer_id": "jaipur-m1",
+        "category": "Food",
+        "participant_ids": [
+          "jaipur-m3",
+          "jaipur-m1"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e08",
+        "description": "Tips",
+        "amount_paise": 137900,
+        "payer_id": "jaipur-m2",
+        "category": "Other",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e09",
+        "description": "Paragliding",
+        "amount_paise": 298900,
+        "payer_id": "jaipur-m3",
+        "category": "Activities",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m3",
+          "jaipur-m4",
+          "jaipur-m2"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "jaipur-m1": 112088,
+          "jaipur-m3": 87179,
+          "jaipur-m4": 74725,
+          "jaipur-m2": 24908
+        }
+      },
+      {
+        "id": "jaipur-e10",
+        "description": "Souvenirs",
+        "amount_paise": 250700,
+        "payer_id": "jaipur-m2",
+        "category": "Shopping",
+        "participant_ids": [
+          "jaipur-m2",
+          "jaipur-m4",
+          "jaipur-m1"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e11",
+        "description": "Medical supplies",
+        "amount_paise": 75300,
+        "payer_id": "jaipur-m4",
+        "category": "Other",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e12",
+        "description": "Clothes shopping",
+        "amount_paise": 292600,
+        "payer_id": "jaipur-m2",
+        "category": "Shopping",
+        "participant_ids": [
+          "jaipur-m3",
+          "jaipur-m2"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e13",
+        "description": "Train tickets",
+        "amount_paise": 549900,
+        "payer_id": "jaipur-m2",
+        "category": "Transport",
+        "participant_ids": [
+          "jaipur-m4",
+          "jaipur-m1"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "jaipur-m4": 299946,
+          "jaipur-m1": 249954
+        }
+      },
+      {
+        "id": "jaipur-e14",
+        "description": "River rafting",
+        "amount_paise": 326300,
+        "payer_id": "jaipur-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e15",
+        "description": "Fort tickets",
+        "amount_paise": 500200,
+        "payer_id": "jaipur-m4",
+        "category": "Activities",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e16",
+        "description": "Resort booking",
+        "amount_paise": 1764100,
+        "payer_id": "jaipur-m2",
+        "category": "Accommodation",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e17",
+        "description": "Highway toll",
+        "amount_paise": 343800,
+        "payer_id": "jaipur-m2",
+        "category": "Fuel",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e18",
+        "description": "Bus tickets",
+        "amount_paise": 301100,
+        "payer_id": "jaipur-m2",
+        "category": "Transport",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e19",
+        "description": "Fort tickets",
+        "amount_paise": 251600,
+        "payer_id": "jaipur-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e20",
+        "description": "Highway toll",
+        "amount_paise": 364800,
+        "payer_id": "jaipur-m2",
+        "category": "Fuel",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e21",
+        "description": "Dinner at restaurant",
+        "amount_paise": 277600,
+        "payer_id": "jaipur-m2",
+        "category": "Food",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m2",
+          "jaipur-m3",
+          "jaipur-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "jaipur-e22",
+        "description": "Laundry",
+        "amount_paise": 133300,
+        "payer_id": "jaipur-m2",
+        "category": "Other",
+        "participant_ids": [
+          "jaipur-m1",
+          "jaipur-m4",
+          "jaipur-m2"
+        ],
+        "split_type": "equal"
+      }
+    ]
+  },
+  {
+    "id": "rishikesh",
+    "name": "Rishikesh Adventure",
+    "members": [
+      {
+        "id": "rishikesh-m1",
+        "name": "Aditya"
+      },
+      {
+        "id": "rishikesh-m2",
+        "name": "Siddharth"
+      },
+      {
+        "id": "rishikesh-m3",
+        "name": "Ananya"
+      },
+      {
+        "id": "rishikesh-m4",
+        "name": "Diya"
+      },
+      {
+        "id": "rishikesh-m5",
+        "name": "Arjun"
+      },
+      {
+        "id": "rishikesh-m6",
+        "name": "Riya"
+      },
+      {
+        "id": "rishikesh-m7",
+        "name": "Meera"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "rishikesh-e01",
+        "description": "Dinner at restaurant",
+        "amount_paise": 90600,
+        "payer_id": "rishikesh-m1",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e02",
+        "description": "Ice cream stop",
+        "amount_paise": 487100,
+        "payer_id": "rishikesh-m7",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m4",
+          "rishikesh-m7",
+          "rishikesh-m6",
+          "rishikesh-m3",
+          "rishikesh-m5",
+          "rishikesh-m2"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e03",
+        "description": "Petrol fill-up",
+        "amount_paise": 399700,
+        "payer_id": "rishikesh-m2",
+        "category": "Fuel",
+        "participant_ids": [
+          "rishikesh-m6",
+          "rishikesh-m1",
+          "rishikesh-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e04",
+        "description": "Airbnb rental",
+        "amount_paise": 808700,
+        "payer_id": "rishikesh-m1",
+        "category": "Accommodation",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e05",
+        "description": "Dinner buffet",
+        "amount_paise": 261600,
+        "payer_id": "rishikesh-m7",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m2",
+          "rishikesh-m4",
+          "rishikesh-m1",
+          "rishikesh-m3",
+          "rishikesh-m7"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "rishikesh-m5": 45104,
+          "rishikesh-m6": 27063,
+          "rishikesh-m2": 18042,
+          "rishikesh-m4": 9020,
+          "rishikesh-m1": 27062,
+          "rishikesh-m3": 45103,
+          "rishikesh-m7": 90206
+        }
+      },
+      {
+        "id": "rishikesh-e06",
+        "description": "Dinner buffet",
+        "amount_paise": 131800,
+        "payer_id": "rishikesh-m6",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e07",
+        "description": "Dinner buffet",
+        "amount_paise": 472300,
+        "payer_id": "rishikesh-m7",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m3",
+          "rishikesh-m5",
+          "rishikesh-m7",
+          "rishikesh-m1",
+          "rishikesh-m4",
+          "rishikesh-m6",
+          "rishikesh-m2"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "rishikesh-m3": 53671,
+          "rishikesh-m5": 107341,
+          "rishikesh-m7": 10735,
+          "rishikesh-m1": 32203,
+          "rishikesh-m4": 85872,
+          "rishikesh-m6": 96606,
+          "rishikesh-m2": 85872
+        }
+      },
+      {
+        "id": "rishikesh-e08",
+        "description": "Petrol fill-up",
+        "amount_paise": 351400,
+        "payer_id": "rishikesh-m1",
+        "category": "Fuel",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e09",
+        "description": "Trekking guide",
+        "amount_paise": 231700,
+        "payer_id": "rishikesh-m1",
+        "category": "Activities",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e10",
+        "description": "Parking fee",
+        "amount_paise": 132600,
+        "payer_id": "rishikesh-m1",
+        "category": "Other",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e11",
+        "description": "Guest house",
+        "amount_paise": 2124400,
+        "payer_id": "rishikesh-m1",
+        "category": "Accommodation",
+        "participant_ids": [
+          "rishikesh-m4",
+          "rishikesh-m7",
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m6"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e12",
+        "description": "Cab to station",
+        "amount_paise": 412100,
+        "payer_id": "rishikesh-m7",
+        "category": "Transport",
+        "participant_ids": [
+          "rishikesh-m6",
+          "rishikesh-m4",
+          "rishikesh-m1",
+          "rishikesh-m5",
+          "rishikesh-m3"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "rishikesh-m6": 132936,
+          "rishikesh-m4": 53175,
+          "rishikesh-m1": 39881,
+          "rishikesh-m5": 66467,
+          "rishikesh-m3": 119641
+        }
+      },
+      {
+        "id": "rishikesh-e13",
+        "description": "Street food lunch",
+        "amount_paise": 214000,
+        "payer_id": "rishikesh-m7",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m4",
+          "rishikesh-m6",
+          "rishikesh-m3"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e14",
+        "description": "Dinner buffet",
+        "amount_paise": 425200,
+        "payer_id": "rishikesh-m7",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e15",
+        "description": "Phone recharge",
+        "amount_paise": 124000,
+        "payer_id": "rishikesh-m3",
+        "category": "Other",
+        "participant_ids": [
+          "rishikesh-m3",
+          "rishikesh-m5",
+          "rishikesh-m7",
+          "rishikesh-m1",
+          "rishikesh-m2"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e16",
+        "description": "Spice market haul",
+        "amount_paise": 287500,
+        "payer_id": "rishikesh-m4",
+        "category": "Shopping",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e17",
+        "description": "Ice cream stop",
+        "amount_paise": 482100,
+        "payer_id": "rishikesh-m1",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m2",
+          "rishikesh-m5",
+          "rishikesh-m4",
+          "rishikesh-m7",
+          "rishikesh-m6",
+          "rishikesh-m1",
+          "rishikesh-m3"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "rishikesh-m2": 104238,
+          "rishikesh-m5": 91209,
+          "rishikesh-m4": 91209,
+          "rishikesh-m7": 39089,
+          "rishikesh-m6": 104237,
+          "rishikesh-m1": 13029,
+          "rishikesh-m3": 39089
+        }
+      },
+      {
+        "id": "rishikesh-e18",
+        "description": "Souvenirs",
+        "amount_paise": 230300,
+        "payer_id": "rishikesh-m1",
+        "category": "Shopping",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e19",
+        "description": "Resort booking",
+        "amount_paise": 2945500,
+        "payer_id": "rishikesh-m1",
+        "category": "Accommodation",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e20",
+        "description": "Trekking guide",
+        "amount_paise": 165700,
+        "payer_id": "rishikesh-m7",
+        "category": "Activities",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e21",
+        "description": "Tips",
+        "amount_paise": 148300,
+        "payer_id": "rishikesh-m1",
+        "category": "Other",
+        "participant_ids": [
+          "rishikesh-m6",
+          "rishikesh-m7",
+          "rishikesh-m3"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e22",
+        "description": "Paragliding",
+        "amount_paise": 455500,
+        "payer_id": "rishikesh-m6",
+        "category": "Activities",
+        "participant_ids": [
+          "rishikesh-m2",
+          "rishikesh-m6",
+          "rishikesh-m3",
+          "rishikesh-m1",
+          "rishikesh-m4"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "rishikesh-m2": 113876,
+          "rishikesh-m6": 18979,
+          "rishikesh-m3": 94895,
+          "rishikesh-m1": 113875,
+          "rishikesh-m4": 113875
+        }
+      },
+      {
+        "id": "rishikesh-e23",
+        "description": "Breakfast cafe",
+        "amount_paise": 177500,
+        "payer_id": "rishikesh-m1",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m2"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e24",
+        "description": "Highway toll",
+        "amount_paise": 338200,
+        "payer_id": "rishikesh-m7",
+        "category": "Fuel",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e25",
+        "description": "Breakfast cafe",
+        "amount_paise": 477700,
+        "payer_id": "rishikesh-m1",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m6",
+          "rishikesh-m4",
+          "rishikesh-m3",
+          "rishikesh-m7"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "rishikesh-m6": 99521,
+          "rishikesh-m4": 79617,
+          "rishikesh-m3": 139329,
+          "rishikesh-m7": 159233
+        }
+      },
+      {
+        "id": "rishikesh-e26",
+        "description": "Groceries for cooking",
+        "amount_paise": 324000,
+        "payer_id": "rishikesh-m3",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e27",
+        "description": "Clothes shopping",
+        "amount_paise": 212100,
+        "payer_id": "rishikesh-m7",
+        "category": "Shopping",
+        "participant_ids": [
+          "rishikesh-m4",
+          "rishikesh-m3",
+          "rishikesh-m2",
+          "rishikesh-m6",
+          "rishikesh-m1",
+          "rishikesh-m5"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "rishikesh-m4": 28280,
+          "rishikesh-m3": 14140,
+          "rishikesh-m2": 7070,
+          "rishikesh-m6": 35350,
+          "rishikesh-m1": 56560,
+          "rishikesh-m5": 70700
+        }
+      },
+      {
+        "id": "rishikesh-e28",
+        "description": "Spice market haul",
+        "amount_paise": 183800,
+        "payer_id": "rishikesh-m7",
+        "category": "Shopping",
+        "participant_ids": [
+          "rishikesh-m5",
+          "rishikesh-m7",
+          "rishikesh-m3",
+          "rishikesh-m2"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e29",
+        "description": "Clothes shopping",
+        "amount_paise": 247300,
+        "payer_id": "rishikesh-m3",
+        "category": "Shopping",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m6",
+          "rishikesh-m4",
+          "rishikesh-m3"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e30",
+        "description": "Boat ride",
+        "amount_paise": 111400,
+        "payer_id": "rishikesh-m1",
+        "category": "Activities",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e31",
+        "description": "Spa session",
+        "amount_paise": 314700,
+        "payer_id": "rishikesh-m3",
+        "category": "Activities",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e32",
+        "description": "Lunch thali",
+        "amount_paise": 50500,
+        "payer_id": "rishikesh-m2",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m6",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m1",
+          "rishikesh-m5"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e33",
+        "description": "Hotel stay",
+        "amount_paise": 2414200,
+        "payer_id": "rishikesh-m7",
+        "category": "Accommodation",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m2",
+          "rishikesh-m3",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m7"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "rishikesh-e34",
+        "description": "Ice cream stop",
+        "amount_paise": 472500,
+        "payer_id": "rishikesh-m7",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m4",
+          "rishikesh-m5",
+          "rishikesh-m6",
+          "rishikesh-m2",
+          "rishikesh-m7",
+          "rishikesh-m3"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "rishikesh-m1": 49737,
+          "rishikesh-m4": 99474,
+          "rishikesh-m5": 99474,
+          "rishikesh-m6": 49737,
+          "rishikesh-m2": 74605,
+          "rishikesh-m7": 24868,
+          "rishikesh-m3": 74605
+        }
+      },
+      {
+        "id": "rishikesh-e35",
+        "description": "Groceries for cooking",
+        "amount_paise": 356100,
+        "payer_id": "rishikesh-m7",
+        "category": "Food",
+        "participant_ids": [
+          "rishikesh-m1",
+          "rishikesh-m6",
+          "rishikesh-m2",
+          "rishikesh-m7",
+          "rishikesh-m4"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "rishikesh-m1": 79134,
+          "rishikesh-m6": 52756,
+          "rishikesh-m2": 39567,
+          "rishikesh-m7": 131888,
+          "rishikesh-m4": 52755
+        }
+      }
+    ]
+  },
+  {
+    "id": "mumbai",
+    "name": "Mumbai Weekend",
+    "members": [
+      {
+        "id": "mumbai-m1",
+        "name": "Vihaan"
+      },
+      {
+        "id": "mumbai-m2",
+        "name": "Nikhil"
+      },
+      {
+        "id": "mumbai-m3",
+        "name": "Ishita"
+      },
+      {
+        "id": "mumbai-m4",
+        "name": "Siddharth"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "mumbai-e01",
+        "description": "River rafting",
+        "amount_paise": 588200,
+        "payer_id": "mumbai-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "mumbai-m3",
+          "mumbai-m1",
+          "mumbai-m4"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "mumbai-m3": 294100,
+          "mumbai-m1": 42015,
+          "mumbai-m4": 252085
+        }
+      },
+      {
+        "id": "mumbai-e02",
+        "description": "Ice cream stop",
+        "amount_paise": 133800,
+        "payer_id": "mumbai-m2",
+        "category": "Food",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e03",
+        "description": "Paragliding",
+        "amount_paise": 520400,
+        "payer_id": "mumbai-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "mumbai-m3",
+          "mumbai-m2"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "mumbai-m3": 260200,
+          "mumbai-m2": 260200
+        }
+      },
+      {
+        "id": "mumbai-e04",
+        "description": "Dinner buffet",
+        "amount_paise": 118400,
+        "payer_id": "mumbai-m4",
+        "category": "Food",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e05",
+        "description": "Resort booking",
+        "amount_paise": 2793200,
+        "payer_id": "mumbai-m2",
+        "category": "Accommodation",
+        "participant_ids": [
+          "mumbai-m4",
+          "mumbai-m3",
+          "mumbai-m2"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e06",
+        "description": "Petrol fill-up",
+        "amount_paise": 190600,
+        "payer_id": "mumbai-m2",
+        "category": "Fuel",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e07",
+        "description": "Clothes shopping",
+        "amount_paise": 219400,
+        "payer_id": "mumbai-m4",
+        "category": "Shopping",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e08",
+        "description": "Hostel room",
+        "amount_paise": 2198400,
+        "payer_id": "mumbai-m3",
+        "category": "Accommodation",
+        "participant_ids": [
+          "mumbai-m4",
+          "mumbai-m1",
+          "mumbai-m3",
+          "mumbai-m2"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "mumbai-m4": 258636,
+          "mumbai-m1": 905224,
+          "mumbai-m3": 258635,
+          "mumbai-m2": 775905
+        }
+      },
+      {
+        "id": "mumbai-e09",
+        "description": "Highway toll",
+        "amount_paise": 380000,
+        "payer_id": "mumbai-m4",
+        "category": "Fuel",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e10",
+        "description": "River rafting",
+        "amount_paise": 446400,
+        "payer_id": "mumbai-m3",
+        "category": "Activities",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e11",
+        "description": "Diesel refuel",
+        "amount_paise": 237100,
+        "payer_id": "mumbai-m2",
+        "category": "Fuel",
+        "participant_ids": [
+          "mumbai-m3",
+          "mumbai-m1",
+          "mumbai-m2"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e12",
+        "description": "Souvenirs",
+        "amount_paise": 279700,
+        "payer_id": "mumbai-m3",
+        "category": "Shopping",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e13",
+        "description": "Lunch thali",
+        "amount_paise": 283100,
+        "payer_id": "mumbai-m2",
+        "category": "Food",
+        "participant_ids": [
+          "mumbai-m4",
+          "mumbai-m1",
+          "mumbai-m3",
+          "mumbai-m2"
+        ],
+        "split_type": "unequal",
+        "shares": {
+          "mumbai-m4": 25737,
+          "mumbai-m1": 115814,
+          "mumbai-m3": 51472,
+          "mumbai-m2": 90077
+        }
+      },
+      {
+        "id": "mumbai-e14",
+        "description": "Street food lunch",
+        "amount_paise": 295700,
+        "payer_id": "mumbai-m2",
+        "category": "Food",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e15",
+        "description": "Highway toll",
+        "amount_paise": 183400,
+        "payer_id": "mumbai-m2",
+        "category": "Fuel",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e16",
+        "description": "Chai and snacks",
+        "amount_paise": 253700,
+        "payer_id": "mumbai-m1",
+        "category": "Food",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e17",
+        "description": "Airbnb rental",
+        "amount_paise": 2743500,
+        "payer_id": "mumbai-m2",
+        "category": "Accommodation",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e18",
+        "description": "Dinner at restaurant",
+        "amount_paise": 74800,
+        "payer_id": "mumbai-m2",
+        "category": "Food",
+        "participant_ids": [
+          "mumbai-m3",
+          "mumbai-m1"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e19",
+        "description": "Museum entry",
+        "amount_paise": 243900,
+        "payer_id": "mumbai-m2",
+        "category": "Activities",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      },
+      {
+        "id": "mumbai-e20",
+        "description": "Souvenirs",
+        "amount_paise": 195000,
+        "payer_id": "mumbai-m2",
+        "category": "Shopping",
+        "participant_ids": [
+          "mumbai-m1",
+          "mumbai-m2",
+          "mumbai-m3",
+          "mumbai-m4"
+        ],
+        "split_type": "equal"
+      }
+    ]
+  }
+]
