@@ -4,14 +4,22 @@ All monetary values are integer paise. No floats, true division, or I/O.
 """
 
 EXACT_LIMIT = 12
+CATEGORIES = ("Accommodation", "Food", "Transport", "Fuel", "Activities", "Shopping", "Other")
 
 
 def _is_positive_int(value: object) -> bool:
     return isinstance(value, int) and not isinstance(value, bool) and value > 0
 
 
-def _validate_expense(expense: dict, member_ids: set[str]) -> None:
+def validate_expense(expense: dict, member_ids: set[str]) -> None:
     exp_id = expense.get("id", "<unknown>")
+    description = expense.get("description")
+    if not isinstance(description, str) or not description.strip():
+        raise ValueError(f"Expense {exp_id}: description must be a non-empty string")
+
+    if expense.get("category") not in CATEGORIES:
+        raise ValueError(f"Expense {exp_id}: category must be one of {', '.join(CATEGORIES)}")
+
     amount = expense.get("amount_paise")
     if not _is_positive_int(amount):
         raise ValueError(f"Expense {exp_id}: amount_paise must be a positive integer")
@@ -33,6 +41,9 @@ def _validate_expense(expense: dict, member_ids: set[str]) -> None:
     split_type = expense.get("split_type")
     if split_type not in ("equal", "unequal"):
         raise ValueError(f"Expense {exp_id}: split_type must be 'equal' or 'unequal'")
+
+    if split_type == "equal" and "shares" in expense:
+        raise ValueError(f"Expense {exp_id}: shares must not be provided for equal split")
 
     if split_type == "unequal":
         shares = expense.get("shares")
@@ -64,7 +75,7 @@ def calculate_balances(trip: dict) -> dict:
     total_spend_paise = 0
 
     for expense in trip["expenses"]:
-        _validate_expense(expense, member_ids)
+        validate_expense(expense, member_ids)
         amount = expense["amount_paise"]
         total_spend_paise += amount
         paid[expense["payer_id"]] += amount
